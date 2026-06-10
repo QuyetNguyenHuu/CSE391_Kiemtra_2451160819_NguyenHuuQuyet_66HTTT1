@@ -27,7 +27,7 @@ function App() {
         subtitle="Giao diện nhập liệu và hiển thị danh sách sản phẩm một cách trực quan, rõ ràng."
       />
 
-      <main className="container my-4">
+      <main className="container-fluid my-4">
         <div className="row g-4">
           {/* Cột trái: form thêm mới */}
           <div className="col-lg-4">
