@@ -1,0 +1,70 @@
+/* ===== Thiết lập chung ===== */
+body {
+  background-color: #f4f6fb;
+  color: #1f2937;
+}
+
+/* ===== Header gradient xanh ===== */
+.app-header {
+  background: linear-gradient(135deg, #1d6bf3 0%, #2f81f7 60%, #4f93ff 100%);
+  color: #ffffff;
+  padding: 2rem 0;
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+
+.app-header__title {
+  font-weight: 800;
+  margin-bottom: 0.35rem;
+}
+
+.app-header__subtitle {
+  margin-bottom: 0;
+  opacity: 0.9;
+  font-size: 0.95rem;
+}
+
+/* ===== Thẻ (card) ===== */
+.card {
+  border: 1px solid #eceef3;
+  border-radius: 14px;
+}
+
+/* ===== Bảng sản phẩm ===== */
+.product-table thead th {
+  letter-spacing: 0.04em;
+  border-bottom: 2px solid #eef1f6;
+}
+
+.product-table tbody td {
+  border-bottom: 1px solid #f1f3f8;
+}
+
+/* ===== Badge trạng thái ===== */
+.badge-status {
+  padding: 0.4em 0.7em;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.badge-status--in {
+  background-color: #e7f7ee;
+  color: #1f9d55;
+}
+
+.badge-status--out {
+  background-color: #fdecec;
+  color: #e23b3b;
+}
+
+/* ===== Nút chính ===== */
+.btn-primary {
+  background-color: #1d6bf3;
+  border-color: #1d6bf3;
+}
+
+.btn-primary:hover {
+  background-color: #155ad1;
+  border-color: #155ad1;
+}
